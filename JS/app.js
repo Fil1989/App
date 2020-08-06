@@ -1,3 +1,6 @@
+function createElement(tag, props, ...children){
+    const element = document.createElement(tag);
+}
 function createTodoItem(title) {
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
